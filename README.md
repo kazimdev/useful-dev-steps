@@ -1,1 +1,2 @@
-# necessary-linux-commands
+# useful-dev-steps-and-commands
+
