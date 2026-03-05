@@ -24,10 +24,10 @@ npm install
 npm run dev   # or `npm run build` for production
 
 6. Set Storage Permissions
-bashchmod -R 775 storage bootstrap/cache
-Or on some setups:
-bashphp artisan storage:link
+chmod -R 775 storage bootstrap/cache
+Or:
+php artisan storage:link
 
 7. Start the Development Server
-bashphp artisan serve
+php artisan serve
 Then visit http://127.0.0.1:8000 in your browser.
